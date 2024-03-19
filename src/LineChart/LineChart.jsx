@@ -83,7 +83,7 @@ const LineChart = () => {
 
   return (
     <div className="">
-      <LChart width={500} height={400} data={subjectMarksData}>
+      <LChart width={450} height={400} data={subjectMarksData}>
         <XAxis dataKey="name" />
         <YAxis />
         <Tooltip />
