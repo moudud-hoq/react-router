@@ -1,4 +1,5 @@
-const Link = ({route}) => {
+import PropTypes from 'prop-types'; 
+const Link = ({ route }) => {
   return (
     <div>
       <li>
@@ -6,6 +7,10 @@ const Link = ({route}) => {
       </li>
     </div>
   );
+};
+
+Link.PropTypes = {
+  route: PropTypes.object,
 };
 
 export default Link;
