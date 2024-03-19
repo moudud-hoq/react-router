@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className="container mx-auto">
         <NavBar />
         <PriceOptions />
       </div>
