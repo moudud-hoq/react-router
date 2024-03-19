@@ -1,3 +1,4 @@
+import Feature from "../Feature/Feature";
 import PriceOption from "../PriceOption/PriceOption";
 
 const PriceOptions = () => {
@@ -119,6 +120,7 @@ const PriceOptions = () => {
         {priceOptions.map((option) => (
           <PriceOption key={option.id} option={option} />
         ))}
+
       </div>
     </div>
   );

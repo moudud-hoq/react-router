@@ -1,4 +1,6 @@
 import { PropTypes } from "prop-types";
+import Feature from "../Feature/Feature";
+
 const PriceOption = ({ option }) => {
   const { name, id, price, features } = option;
   return (
@@ -15,6 +17,18 @@ const PriceOption = ({ option }) => {
           <b>Price: </b>
           {price}
         </h1>
+
+        {/* ====================== */}
+        <h2>
+          <b>Features:</b>
+        </h2>
+        <ul className="list-disc px-4">
+          {features.map((feature, idx) => (
+            <li key={idx}>
+              <Feature feature={feature} />
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );
