@@ -14,11 +14,11 @@ const NavBar = () => {
 
   return (
     <nav className="bg-slate-50 p-4">
-      <div className="text-2xl md:hidden" onClick={() => setOpen(!open)}>
+      <div className="text-2xl md:hidden " onClick={() => setOpen(!open)}>
         {open === true ? <AiOutlineClose /> : <AiOutlineMenu />}
       </div>
       <ul
-        className={`md:flex absolute ${
+        className={`md:flex absolute md:static ${
           open ? "top-12" : "-top-60"
         } duration-1000 
         gap-3 justify-center p-2 bg-slate-50 font-semibold text-sm`}
