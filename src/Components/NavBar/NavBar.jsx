@@ -19,7 +19,7 @@ const NavBar = () => {
       </div>
       <ul
         className={`md:flex absolute ${open ? "" : "hidden"} duration-1000 
-        gap-3 justify-center p-8 bg-slate-100 font-semibold text-sm`}
+        gap-3 justify-center p-8 bg-slate-200 font-semibold text-sm`}
       >
         {routes.map((route) => (
           <Link key={route.id} route={route}></Link>
