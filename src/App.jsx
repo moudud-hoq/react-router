@@ -2,6 +2,7 @@
 
 import "./App.css";
 import NavBar from "./Components/NavBar/NavBar";
+import PriceOptions from "./Components/PriceOptions/PriceOptions";
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -10,6 +11,7 @@ function App() {
     <>
       <div>
         <NavBar />
+        <PriceOptions />
       </div>
     </>
   );
