@@ -8,9 +8,7 @@ const Home = () => {
       <Header></Header>
       <h2>This is the home Area</h2>
 
-      <div className="">
         <Outlet></Outlet>
-      </div>
 
       <Footer className="mt-16"/>
     </div>

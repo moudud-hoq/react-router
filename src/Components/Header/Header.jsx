@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Users2 from "./../Users2/Users2";
 
 const Header = () => {
   return (
@@ -8,6 +9,7 @@ const Header = () => {
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
+        <Link to="/users2">Users2</Link>
       </nav>
     </div>
   );

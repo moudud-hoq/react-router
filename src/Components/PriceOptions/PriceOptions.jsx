@@ -1,4 +1,3 @@
-import Feature from "../Feature/Feature";
 import PriceOption from "../PriceOption/PriceOption";
 
 const PriceOptions = () => {
